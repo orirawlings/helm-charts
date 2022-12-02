@@ -71,6 +71,7 @@ containers:
       - name: {{ .name }}
         containerPort: {{ .containerPort }}
         protocol: {{ .protocol }}
+        hostPort: {{ .hostPort }}
       {{- end }}
     {{- end }}
   {{- with .Values.lifecycle }}

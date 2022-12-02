@@ -266,6 +266,7 @@ extraPorts: []
 #     protocol: TCP
 #     name: tcp
 #     nodePort: 30517
+# .   hostPort: 5170
 
 extraVolumes: []
 
